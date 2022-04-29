@@ -9,6 +9,8 @@ To begin, we took a look at a variety of kickstarter data that included film, te
 
 From here, we narrowed the data down to specifically look at Theatre Outcomes based on two things per Louises request: **Launch Date** and **Goals.**
 
+### Results
+
 **Theater Outcomes Based on Launch Date:**
 For this section, we created a pivot chart looking at the number of successful, failed, and canceled theater kickstarters depending on which month they were launched. There was a very clear indication that the most promising time to launch a kickstarter would be May, which showed 111 out of 166 projects proving successful, while launching a kickstarter in December or October would be the least successful. This is indicated in the line graph below in the gap between May's successful vs failed, compared to December's which are practically overlapping on the graph, or October which has the most number of failed kickstarters.To be safe, it would best to avoid launching from September-January.
 
