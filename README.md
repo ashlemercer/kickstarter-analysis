@@ -9,6 +9,10 @@ To begin, we took a look at a variety of kickstarter data that included film, te
 
 From here, we narrowed the data down to specifically look at Theatre Outcomes based on two things per Louises request: **Launch Date** and **Goals.**
 
+To analyze the data by Launch Date, we created a new column that would organize the information by the month launched using ther YEARS() function, and then turned this into a pivot table to create a graph. We then filtered this to just examine theatre kickstarters that succeeded, failed, or were cancelled. Some challenges I faced with this pertained to editing the pivot chart fields and deciding what information to include in filters and values sections. I think going over some of this in class helped give me some clarity, as did some googling.
+
+The Goals Outcomes section was a little more labor intensive. We created a new sheet with rows of goal ranges, and then used the COUNTIF() function to pull data from the Kickstarter Worksheet. The function referenced either the successful/failed/canceled column, the range in which we were searching, and specifically "plays" from the subcategory column. We then created another column and used the SUM() function to get a total number of projects per row. We then found the percentage of each category from the total number of projects and put them into their own successful/failed/canceled percentage columns and turned this into a line graph. A problem that I ran into here was that I had accidently included the country in my COUNTIF() function and filtered for the United States, and therefore was coming up with the numbers slightly off. I eventually went to a classmate for some help, and she helped identify the problem. 
+
 ### Results
 
 **Theater Outcomes Based on Launch Date:**
